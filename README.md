@@ -21,12 +21,12 @@ This is a "in my spare time," "neat things to try," "let's give students a demo 
 
 The approach is to make this a full web application to allow for scalability and modularization. Careful consideration was given to the strengths and weaknesses of various languages and approaches for the project, so while there are likely many other ways to accomplish the broad functions as described above, the below stack is what has been selected for initial development.
 
-**Development Stack:**
+**Development Stack (Still under consideration and evaluation):**
 
 - Python (Flexibility and simplicity)
 - Django (Framework seems to be frequently recommended for similar needs)
 - MySQL (Already utilized for Wordpress in typical development environment, seems to make sense)
-* Still under considerstion. Angular or React might be better.*
+*Still under consideration. Angular or React might be better. MERN stack has been suggested as more responsive and scalable than utilizing Python.*
 
 **Unknown (Need to further research) tool needs/integration:**
 
