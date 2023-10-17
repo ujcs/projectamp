@@ -31,3 +31,7 @@ The approach is to make this a full web application to allow for scalability and
 
 - File Management (Attach PDFs or Docs to Instructors. Resumes for example.)
 - User Management (Is built-in Django admin functions enough?)
+- Front-end considerations (Anything particular for frameworks beyond HTML/CSS/JS?)
+- Any additional consideration for running in Kubernetes environments? (Helm Charts, etc.)
+- Backup/Restore Functionality. (Full application and just database options?)
+- Proper handling of upgrades/updates to code base.
