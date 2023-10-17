@@ -15,7 +15,7 @@ This is a "in my spare time," "neat things to try," "let's give students a demo 
 
 **Course Management:**
 
-- Course Catalog listing all courses (All courses are tied to a particular program)
+- Course Catalog listing all courses (All courses are tied to a particular program. Programs could be tied to a "school," though in just about every case a program should be sufficient. Courses can be found in multiple degrees, certificates, but degrees/certs will only be part of one particular program.)
 - Course Planning (Calculating deadlines for development, issuing contracts, etc. based off of when the course is next slated to be taught.)
   - *Tying to skills matrix for instructor selection being the most critical (i.e. identifying who is qualified or capable of teaching a particular course)*
 
@@ -29,7 +29,7 @@ The approach is to make this a full web application to allow for scalability and
 
 **Unknown (Need to further research) tool needs/integration:**
 
-- File Management (Attach PDFs or Docs to Instructors. Resumes for example.)
+- File Management (Attach PDFs or Docs to Instructors. Resumes for example. Attach reference documents such as proposals or change memos to courses.)
 - User Management (Is built-in Django admin functions enough?)
 - Front-end considerations (Anything particular for frameworks beyond HTML/CSS/JS?)
 - Any additional consideration for running in Kubernetes environments? (Helm Charts, etc.)
