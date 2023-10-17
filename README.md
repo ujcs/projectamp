@@ -26,6 +26,7 @@ The approach is to make this a full web application to allow for scalability and
 - Python (Flexibility and simplicity)
 - Django (Framework seems to be frequently recommended for similar needs)
 - MySQL (Already utilized for Wordpress in typical development environment, seems to make sense)
+* Still under considerstion. Angular or React might be better.*
 
 **Unknown (Need to further research) tool needs/integration:**
 
@@ -35,3 +36,8 @@ The approach is to make this a full web application to allow for scalability and
 - Any additional consideration for running in Kubernetes environments? (Helm Charts, etc.)
 - Backup/Restore Functionality. (Full application and just database options?)
 - Proper handling of upgrades/updates to code base.
+
+**Future Enhancement ideas**
+
+- To-do dashboard and tracking
+- Budgeting?
