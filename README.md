@@ -3,7 +3,7 @@ Academic Management Program (Managing courses and resources)
 
 The readme for this project outlines the goals for the project and the tools that are (intended) to be utilized. It is anticipated that as the project comes together, any and all of it may shift to better integrate the various goals and any improvements users or contributors come up with.
 
-This is a "in my spare time," "neat things to try," "let's give students a demo of how this might work" start to a project. However, the goals are real and the project is being open sources as it might very well be of interest to others. I am confident that I can't be the only one managing this in clunky spreadsheets who is well aware there are much better (and more scalable) of accomplishing the functions described below.
+This is a "in my spare time," "neat things to try," "let's give students a demo of how this might work" start to a project. However, the goals are real and the project is being open sourced as it might very well be of interest to others. I am confident that I can't be the only one managing this in clunky spreadsheets who is well aware there are much better (and more scalable) of accomplishing the functions described below.
 
 *ProjectAMP has two main components: Course Management and Resource Management.*
 
