@@ -23,12 +23,18 @@ The approach is to make this a full web application to allow for scalability and
 
 **Development Stack (Still under consideration and evaluation):**
 
-- PERN/MERN stack has been suggested as more responsive and scalable than utilizing Python.*
+PERN/MERN stack has been suggested as more responsive and scalable than utilizing Python. So the most likely stack of technology for this project is:
+
+- PostgreSQL *(Though CochroachDB has been suggested as a drop-in replacement as it might be better in a Kubernetes cluster scenario.)* Other than file attachments, all other intended data should work just fine with a traditional relational database.
+- Express: Framework and API to work with Node.JS
+- React: Front-end way for creating the UI, fast and efficient.
+- Node.js: Runtime environment that scales well in many platforms.
+- Front-end: Utilize a Tailwind CSS theme. However, while author is agreeable, licensing considerations from platform might impact. So functionality wise, modularization or a base "theme" that can be distributed via the project might need to be considered. (https://themeforest.net/item/lineone-multipurpose-admin-and-webapp-ui-kit-based-on-tailwind-css/38247812) 
 
 **Unknown (Need to further research) tool needs/integration:**
 
 - File Management (Attach PDFs or Docs to Instructors. Resumes for example. Attach reference documents such as proposals or change memos to courses.)
-- User Management (Is built-in Django admin functions enough?)
+- User Management
 - Front-end considerations (Anything particular for frameworks beyond HTML/CSS/JS?)
 - Any additional consideration for running in Kubernetes environments? (Helm Charts, etc.)
 - Backup/Restore Functionality. (Full application and just database options?)
@@ -37,4 +43,5 @@ The approach is to make this a full web application to allow for scalability and
 **Future Enhancement ideas**
 
 - To-do dashboard and tracking
+- Fulltime vs part time faculty
 - Budgeting?
