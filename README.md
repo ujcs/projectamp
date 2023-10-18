@@ -23,10 +23,7 @@ The approach is to make this a full web application to allow for scalability and
 
 **Development Stack (Still under consideration and evaluation):**
 
-- Python (Flexibility and simplicity)
-- Django (Framework seems to be frequently recommended for similar needs)
-- MySQL (Already utilized for Wordpress in typical development environment, seems to make sense)
-*Still under consideration. Angular or React might be better. MERN stack has been suggested as more responsive and scalable than utilizing Python.*
+- PERN/MERN stack has been suggested as more responsive and scalable than utilizing Python.*
 
 **Unknown (Need to further research) tool needs/integration:**
 
