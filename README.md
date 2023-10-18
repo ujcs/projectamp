@@ -25,7 +25,7 @@ The approach is to make this a full web application to allow for scalability and
 
 PERN/MERN stack has been suggested as more responsive and scalable than utilizing Python. So the most likely stack of technology for this project is:
 
-- PostgreSQL *(Though CochroachDB has been suggested as a drop-in replacement as it might be better in a Kubernetes cluster scenario.)* Other than file attachments, all other intended data should work just fine with a traditional relational database.
+- PostgreSQL *(Though CockroachDB has been suggested as a drop-in replacement as it might be better in a Kubernetes cluster scenario. PostgreSQL scales better vertically, while CockroachDB scales better horizontally.)* Other than file attachments, all other intended data should work just fine with a traditional relational database.
 - Express: Framework and API to work with Node.JS
 - React: Front-end way for creating the UI, fast and efficient.
 - Node.js: Runtime environment that scales well in many platforms.
@@ -42,6 +42,12 @@ PERN/MERN stack has been suggested as more responsive and scalable than utilizin
 
 **Future Enhancement ideas**
 
-- To-do dashboard and tracking
+- To-do dashboard and tracking for program directors (Issue contracts, courses to develop, etc)
+- Integration with Email. 
+  - Todo reminders, periodic summaries, etc.
+  - New application alerts (if application portal functionality is integrated) 
+- Application Portal
+  - Instructors to directly submit applications to be reviewed by program directors.
+  - Instructors reviewing skills matrix and suggesting updates? This may or may not be desired functionality as applicants also often indicate interest in areas, but might not have experience, so a judgement call by the program director if marking off as having that "skill"
 - Fulltime vs part time faculty
-- Budgeting?
+- Budgeting (This might not be desirable as it could get messy in a hurry and be an extra level of data security needed beyond the normal PII.)
