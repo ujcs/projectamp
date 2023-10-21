@@ -8,15 +8,11 @@
 
 **During entry ability to flag “priority” ones or special note field. (Ie, stood out on first read, military service, notable teaching experience, etc)* 
 
-
-
 -> New Program
 
 -> New Certification tied to a program
 
 -> New Course assigned to one or more certifications (Example, Networking is in mult certs. CS140 *could* exist in multiple certs in multiple programs)
-
-
 
 **Extraction:**
 
@@ -38,16 +34,12 @@ Settings
 
 Account settings (email/username, name, password etc)
 
-
-
 **Courses page:**
 
 - Upper right corner would be a New course button -> goes to a screen to add a course and select desired skills
 - Main page content will list all courses with a category filter and a search bar at the top of the results table
 - Clicking on a course will bring you to an edit course page (similar to the create course page)
 - Option to delete a course would be on the edit course page
-
-
 
 **Instructors page:**
 
@@ -69,8 +61,6 @@ Account settings (email/username, name, password etc)
 
  \- Button to delete instructor
 
-
-
 **Quick Check page:**
 
 \- Main page content is a list of the skills categories with collapsing sections. Each section contains all the skills with a checkbox for each one.
@@ -83,25 +73,17 @@ Account settings (email/username, name, password etc)
 
 \- A button to create a new instructor based on the selected skills -> goes to the previously described create instructor screen with the skills already selected
 
-
-
 Settings -> Skills Categories:
 
 A simple page that just lists categories in a list with options to edit the name, delete them or create new ones.
-
-
 
 Settings -> Course Categories:
 
 A simple page that just lists categories in a list with options to edit the name, delete them or create new ones.
 
-
-
 Corrected Settings -> Skills:
 
 A simple page that just lists skills in a list with options to edit the name, delete them or create new ones. When creating or editing one you can select the skill category.
-
-
 
 Database tables:
 
@@ -121,11 +103,7 @@ Database tables:
 
 \- Instructor Skill Assignments (simple list with a FK to a instructor and a FK to a skill)
 
-
-
 So I imagine this workflow upon setup of the application as a whole:
-
-
 
 Initial setup only done once (or adding/removing as needed):
 
@@ -134,14 +112,10 @@ Initial setup only done once (or adding/removing as needed):
 3. Create Skill Categories
 4. Create skills
 
-
-
 **For each person:**
 
 1. Add them or use the quick check
 2. View things they can do
-
-
 
 **Org Admin:**
 
@@ -149,15 +123,11 @@ Initial setup only done once (or adding/removing as needed):
 
 \- Create/manage sub-users who can also managed courses etc
 
-
-
 **Manager:**
 
 \- Create/manager courses and stuff
 
 \- This is the sub-user of a org
-
-
 
 **Instructor/user:**
 
